@@ -125,6 +125,13 @@ local themeStyles = {
         Header = Color3.fromRGB(0, 0, 0),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(71, 38, 63)
+    },
+    Emerald = { --emarld chnage
+        SchemeColor = Color3.fromRGB(36, 189, 26),
+        Background = Color3.fromRGB(46, 82, 44),
+        Header = Color3.fromRGB(57, 105, 60),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ElementColor = Color3.fromRGB(52, 95, 56)
     }
 }
 local oldTheme = ""
@@ -178,6 +185,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Serpent
         elseif themeList == "Shade" then
         themeList = themeStyles.Shade
+        elseif themeList == "Emerald" then
+        themeList = themeStyles.Emerald
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
