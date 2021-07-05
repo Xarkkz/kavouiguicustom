@@ -122,8 +122,8 @@ local themeStyles = {
     Shade = { -- change shade to whatever name you want now adding the colorfollow me
         SchemeColor = Color3.fromRGB(255, 0, 251),
         Background = Color3.fromRGB(0, 0, 0),
-        Header = Color3.fromRGB(255, 0, 251),
-        TextColor = Color3.fromRGB(0, 0, 0),
+        Header = Color3.fromRGB(0, 0, 0),
+        TextColor = Color3.fromRGB(255, 0, 251),
         ElementColor = Color3.fromRGB(71, 38, 63)
     }
 }
